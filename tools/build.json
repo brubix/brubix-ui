@@ -15,17 +15,9 @@
 			"demoApiUrl": "http://keenthemes.com/metronic/preview/"
 		},
 		"dist": {
-			"preview": {
-				"enabled": true,
-				"path": "./../theme/dist/preview/assets"
-			},
 			"angular": {
 				"enabled": true,
 				"path": "./../theme/dist/angular/**/src/assets"
-			},
-			"html": {
-				"enabled": true,
-				"path": "./../theme/dist/html/**/assets"
 			}
 		}
 	},
@@ -449,105 +441,6 @@
 					"output": {
 						"scripts": "{$config.output}/demo/default/custom/",
 						"media": "{$config.output}/demo/default/media/"
-					}
-				}
-			},
-			"demo2": {
-				"base": {
-					"src": {
-						"styles": [
-							"{$config.path.src}/sass/demo/demo2/style.scss"
-						],
-						"scripts": [
-							"{$config.path.src}/js/framework/**/*.js",
-							"{$config.path.src}/js/demo/demo2/base/**/*.js",
-							"{$config.path.src}/js/app/base/**/*.js",
-							"{$config.path.src}/js/snippets/base/**/*.js"
-						]
-					},
-					"bundle": {
-						"styles": "{$config.output}/demo/demo2/base/style.bundle.css",
-						"scripts": "{$config.output}/demo/demo2/base/scripts.bundle.js"
-					}
-				},
-				"custom": {
-					"src": {
-						"scripts": [
-							"{$config.path.src}/js/demo/demo2/custom/**/*.js"
-						],
-						"media": [
-							"{$config.path.src}/media/demo/demo2/**/*.*"
-						]
-					},
-					"output": {
-						"scripts": "{$config.output}/demo/demo2/custom/",
-						"media": "{$config.output}/demo/demo2/media/"
-					}
-				}
-			},
-			"demo3": {
-				"base": {
-					"src": {
-						"styles": [
-							"{$config.path.src}/sass/demo/demo3/style.scss"
-						],
-						"scripts": [
-							"{$config.path.src}/js/framework/**/*.js",
-							"{$config.path.src}/js/demo/demo3/base/**/*.js",
-							"{$config.path.src}/js/app/base/**/*.js",
-							"{$config.path.src}/js/snippets/base/**/*.js"
-						]
-					},
-					"bundle": {
-						"styles": "{$config.output}/demo/demo3/base/style.bundle.css",
-						"scripts": "{$config.output}/demo/demo3/base/scripts.bundle.js"
-					}
-				},
-				"custom": {
-					"src": {
-						"scripts": [
-							"{$config.path.src}/js/demo/demo3/custom/**/*.js"
-						],
-						"media": [
-							"{$config.path.src}/media/demo/demo3/**/*.*"
-						]
-					},
-					"output": {
-						"scripts": "{$config.output}/demo/demo3/custom/",
-						"media": "{$config.output}/demo/demo3/media/"
-					}
-				}
-			},
-			"demo4": {
-				"base": {
-					"src": {
-						"styles": [
-							"{$config.path.src}/sass/demo/demo4/style.scss"
-						],
-						"scripts": [
-							"{$config.path.src}/js/framework/**/*.js",
-							"{$config.path.src}/js/demo/demo4/base/**/*.js",
-							"{$config.path.src}/js/app/base/**/*.js",
-							"{$config.path.src}/js/snippets/base/**/*.js"
-						]
-					},
-					"bundle": {
-						"styles": "{$config.output}/demo/demo4/base/style.bundle.css",
-						"scripts": "{$config.output}/demo/demo4/base/scripts.bundle.js"
-					}
-				},
-				"custom": {
-					"src": {
-						"scripts": [
-							"{$config.path.src}/js/demo/demo4/custom/**/*.js"
-						],
-						"media": [
-							"{$config.path.src}/media/demo/demo4/**/*.*"
-						]
-					},
-					"output": {
-						"scripts": "{$config.output}/demo/demo4/custom/",
-						"media": "{$config.output}/demo/demo4/media/"
 					}
 				}
 			}
