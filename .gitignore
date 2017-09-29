@@ -99,3 +99,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+/theme/dist/angular/default/node_modules/
+/tools/node_modules/
+/tools/bower_components/
+/brubix-ui.iml
+/.idea/
