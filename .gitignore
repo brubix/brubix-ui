@@ -105,3 +105,4 @@ ENV/
 /brubix-ui.iml
 /.idea/
 !/dist/
+/dist/node_modules/
