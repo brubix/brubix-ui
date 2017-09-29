@@ -104,3 +104,4 @@ ENV/
 /tools/bower_components/
 /brubix-ui.iml
 /.idea/
+!/dist/

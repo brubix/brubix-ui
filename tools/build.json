@@ -17,7 +17,7 @@
 		"dist": {
 			"angular": {
 				"enabled": true,
-				"path": "./../theme/dist/angular/**/src/assets"
+				"path": "./../dist/src/assets"
 			}
 		}
 	},
